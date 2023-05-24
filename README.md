@@ -6,7 +6,7 @@
 
 The CLN17 motor driver is an **open-source**, compact, high-performance closed-loop stepper motor driver designed specifically for NEMA17 form factor motors. The driver offers advanced features such as silent and smooth motion, high-precision position control, and energy-saving capabilities, making it ideal for various applications, including robotics, CNC machines, and 3D printers. 
 
-Detailed documentation at [creapunk.com](https:/creapunk.com)!
+Detailed documentation at [creapunk.com](https://creapunk.com)!
 
 ## Board Diagram
 
