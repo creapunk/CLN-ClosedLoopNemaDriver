@@ -1,6 +1,8 @@
 # CLN17 - CLOSED-LOOP DRIVER FOR NEMA17
 
-![](./assets/cln17-preview.png)
+![CONCEPT VIDEO CLN17](https://github.com/FutureEngineeer/CLN17/assets/92550096/dd664823-ec3a-4b4a-9028-08ed72ca12da)
+
+[CLN17 cncept video](http://www.youtube.com/watch?v=A67UROq0t6Q)
 
 # Project Overview
 
