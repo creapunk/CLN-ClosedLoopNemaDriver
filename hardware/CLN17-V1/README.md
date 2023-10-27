@@ -25,4 +25,17 @@
 #### Not tested:
 
 - The operation of the external HSE crystal and the dependent RTC
-- Reverse polarity protection on IO hasn't been tested
+
+	
+
+#### V1.1 fixes:
+
+- Optimised circuit power supply: 
+	- Improved power polygon layout; 
+	- Improved DCDC converter layout
+- Improved Type-C compatibility: 
+	- Added full-featured UCPD interface; 
+	- Added 5.1k resistors in case UCPD doesn't work
+- Optimised components:
+	- ESD protection reduced form factor; 
+	- Correct USB Type-C connector with both CC lines
