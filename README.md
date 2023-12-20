@@ -12,7 +12,7 @@ Detailed documentation at [creapunk.com](https://creapunk.com)!
 
 ## Board Diagram
 
-![Board Diagram](./assets/board-pinout.png)
+![Board Diagram](./wiki/assets/board-pinout.png)
 
 ## Key Features
 
@@ -38,3 +38,14 @@ Detailed documentation at [creapunk.com](https://creapunk.com)!
 - 🔬 Laboratory Equipment
 - 🏭 Industrial Motion Control Systems
 - 📳 Haptics & Force Feedback Systems
+
+------
+
+### Support the Project!
+
+**If you like the project and want to support its development, you can do so through:**
+
+- **[Ko-fi](https://ko-fi.com/creapunk)** (*preferred for membership subscription and one-time donation*) - here, you can sign up for monthly support, or you can make a one-time donation as well!
+- **[Patreon](http://patreon.com/creapunk)** - similar to Ko-fi, but with higher fees.
+
+Don't forget to join **[creapunk community on Discord](https://discord.gg/4uFSsffhMt)** for the latest updates and discussions!
