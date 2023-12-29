@@ -73,7 +73,7 @@ If this project resonates with you, please consider the following ways to suppor
 
 - **[Ko-fi](https://ko-fi.com/creapunk):** Preferred for membership subscription and one-time donation
 - **[Patreon](https://patreon.com/creapunk):** Alternative platform with higher fees
-- **Join [Discord community](https://discord.gg/creapunk):** Stay updated, engage in discussions, and contribute to the project
+- **Join [Discord community](https://discord.gg/V4aJdTja8v):** Stay updated, engage in discussions, and contribute to the project
 
 **Your contribution, regardless of size, is greatly appreciated!** 
 
