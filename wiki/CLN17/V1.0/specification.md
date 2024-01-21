@@ -22,9 +22,9 @@
 - **Maximum output voltage:** 25VDC
 - **Maximum step sub-division resolution:** 1/256 of full step
 - **Energy saving features:** Passive Braking, Freewheeling and automatic power down
-- **Working frequency:** up to 40kHz PWM (allows silent and smooth motion)
+- **Working frequency:** up to 40kHz PWM
 - **Phase channel resistance:** Mosfets RDS~ON~ 170mΩ for both sides + 100mΩ current sensing resistor
-- **True Driver positioning resolution:** Up to 0.028° (limited by motor)
+- **True Driver positioning resolution:** Up to 0.028° (may be limited by motor)
 - **True Encoder position feedback resolution:** 14bit per full rotation or 0.02° at 20kHz update rate
 - **Diagnostic functions:** overheat detection, short-circuit detection, under-voltage detection, open-load detection in case connectors are not firmly plugged in
 
@@ -92,5 +92,5 @@
 
 * **Working temperature range:** **-25 to +80** degrees Celcius
 * **Environment humidity range:** 0 to 90%
-* **Environmental safety:** **Lead-Free** and **RoHS** compliance
+* **Environmental safety:** potential **Lead-Free** and **RoHS** compliance
 * **Maximum heat dissipation**: 3W from motor driver and 0.5W from other system

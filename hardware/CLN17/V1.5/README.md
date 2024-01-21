@@ -1,12 +1,64 @@
-#  CLN17 V1.5
+#  CLN17 V1.5 HARDWARE
 
-> #### Attention!
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](/license.md)
+
+Compact driver for NEMA17, a corrected and improved version of CLN17 V1.0, suitable for 12V and 24V systems with a current of up to 1.4A RMS.
+
+`STATUS` As of January 2024, the [board's functionality has been confirmed](#tested-hardware-features), with no problems identified. Firmware is in progress.
+
+------
+
+### Board Diagram
+
+![](./CLN17-V1.5-BOARD-DIAGRAM.PNG)
+
+------
+
+### Attention!
+
+> - **Uncompleted firmware:** Firmware of CLN17 V1.5 driver is in active development. May contain unforeseen issues.
 >
-> This design has not been tested yet. Its performance has not been confirmed. These files are published for reference only.
+> - **Potential Design Changes:** The design may undergo minor modifications in the future.
 >
-> Once testing is complete and all issues have been identified, all production files and the original design files will be published.
+> - **No Author Liability:** The author bears no responsibility for any damages resulting from incorrect usage, connections, manufacturing faults, or coding errors.
 >
-> Testing completion is expected by 02.2024.
+> - **User's Duty:** Users must conduct comprehensive tests in their specific environments. Adherence to provided usage guidelines is crucial.
+
+------
+
+### Tested hardware features
+
+Driver IC:
+
+- ✅ TMC2209 STEP-DIR, UART SW bidirectional communication, Reset + Disable functionality
+- ✅ Freewheeling when unpowered
+- ✅ Analog Current sensing
+
+Encoder IC:
+
+- ✅ TLE5012 SPI communication
+- ✅ TLE5012 through the PCB position sensing (1LSB noise)
+
+Power:
+
+- ✅ Daisy Chain Power connection
+- ✅ DCDC stability at voltage range [External: 5.2V-25V, USB: 4.9V-5.5V]
+- ✅ ENB CLTR 5V (Power Sink & Source 5V 200mA)
+
+Interfaces:
+
+- ✅ USB communication
+- ✅ CTRL connector - UART, I2C, SPI communication (ABZ not tested yet)
+- ✅ CAN-Bus IC Shutdown and Logic supply, diff signal generation
+- ✅ Expansion connector - UART communication
+- ✅ SWD with reset functionality
+
+Peripherals:
+
+- ✅ SW1 & SW2 as button
+- ✅ RESET using SW2 as output
+- ✅ RGB LED (single color indication)
+- ✅ External Precise Clock (10ppm) (HSE)
 
 ------
 
@@ -19,3 +71,8 @@
 
 Don't forget to join **[creapunk community on Discord](https://discord.gg/4uFSsffhMt)** for the latest updates and discussions!
 
+------
+
+Special thanks to [JLCPCB](https://jlcpcb.com/?from=creapunk) for sponsoring the board manufacturing of this design!
+
+[![img](/wiki/assets/sponsors/JLCPCB.png)](https://jlcpcb.com/?from=creapunk)
