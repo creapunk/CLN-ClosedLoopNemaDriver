@@ -34,30 +34,26 @@ The CLN motor driver series is an **open-source** project aimed at creating a ra
 
 #### [NEMA17 dedicated drivers](./wiki/CLN17/readme.md)
 
-- **[`V1.0`](hardware/CLN17/V1.0)** [obsolete]: pilot version [[wiki]](./wiki/CLN17/V1.0/specification.md)
-
-  > - **Key info:** TMC2209 based, 5-25V 1.4A~RMS~, 15bit position feedback, two-sided assembly
-  >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, UART, I2C
-  > - **Release of source files:** Released
-  
-  
-
 - **[`V1.5`](hardware/CLN17/V1.5)** [tested]: cost-efficient version [[wiki]](./wiki/CLN17/V1.5/specification.md)
 
   > - **Key info:** TMC2209 based, 5-25V 1.4A~RMS~, 15bit position feedback, single-sided assembly
   >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
   > - **Release of source files:** Released
-  
+
   
 
 - **[`V2.0`](hardware/CLN17/V2.0)** [under testing]: high voltage version [[wiki]](./wiki/CLN17/V2.0/specification.md)
 
-	> - **Key info:** DRV8844 based, 8-48V 1.75A~RMS~, 15bit position feedback, single-sided assembly
-	>- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
-	> - **Release of source files:** February 2024
-	
+  > - **Key info:** DRV8844 based, 8-48V 1.75A~RMS~, 15bit position feedback, single-sided assembly
+  >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
+  > - **Release of source files:** February 2024
 
-***Important Note:** V1 design is obsolete and will not be supported in future, please wait for V1.5 or V2 release*
+
+#### OBSOLETE 
+
+**[`CLN17 V1.0`](hardware/CLN17/V1.0)** [obsolete]: pilot version [[wiki]](./wiki/CLN17/V1.0/specification.md)
+
+***Important Note:** Obsolete designs will not be supported in future*
 
 ## Hardware Development Roadmap
 

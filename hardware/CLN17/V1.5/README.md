@@ -6,6 +6,9 @@ Compact driver for NEMA17, a corrected and improved version of CLN17 V1.0, suita
 
 `STATUS` As of January 2024, the [board's functionality has been confirmed](#tested-hardware-features), with no problems identified. Firmware is in progress.
 
+- [`Specification`](/wiki/CLN17/V1.5/specification.md)
+- [`PCBA Manufacturing`](#pcba-manufacturing-specification)
+
 ------
 
 ### Board Diagram
@@ -59,6 +62,25 @@ Peripherals:
 - ✅ RESET using SW2 as output
 - ✅ RGB LED (single color indication)
 - ✅ External Precise Clock (10ppm) (HSE)
+
+------
+
+### PCBA Manufacturing Specification
+
+- **Layers**: 4
+- **Minimum Via Hole Size/Via Diameter**: 0.25mm/0.41mm
+- **Minimum track width/spacing**: 0.19mm/0.2mm\
+- **Material**: FR4
+
+- **PCB Thickness**: 1mm [preferred]
+- **PCB Color**: Any, but black is more aesthetic.
+- **PCB Surface Finish**: ENIG [preferred]
+- **Outer/Inner Copper Weight**: 1oz/0.5oz
+- **Via Covering**: Plugged [preferred] or Tented
+- **Board Outline Tolerance**: ±0.2mm
+- **Panelization**: optional, but if horizontal connectors used, the gap between boards should be ≥5mm.
+- **Assembly**: Single top side
+- **Tooling Holes**: Already present 4x D1.152mm in the corners of the board. May require modification for specific equipment.
 
 ------
 

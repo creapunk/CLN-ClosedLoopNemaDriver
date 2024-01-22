@@ -1,12 +1,55 @@
-#  CLN17 V2.0
+#  CLN17 V2.0 HARDWARE
 
-> #### Attention!
->
-> This design has not been tested yet. Its performance has not been confirmed. These files are published for reference only.
->
-> Once testing is complete and all issues have been identified, all production files and the original design files will be published.
->
-> Testing completion is expected by 02.2024.
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](/license.md)
+
+Compact and powerful driver for NEMA17, an advanced version of CLN17, suitable for 12V, 24V, 36V, and 48V systems with a current of up to 1.75A RMS
+
+`STATUS` As of January 2024, the [partial board's functionality has been confirmed](#tested-hardware-features). Testing completion is expected by 02.2024. Once testing is complete and all issues have been identified, all production files and the original design files will be published.
+
+- [`Specification`](/wiki/CLN17/V1.5/specification.md)
+
+------
+
+### Board Diagram
+
+![](./CLN17-V2.0-BOARD-DIAGRAM.PNG)
+
+------
+
+### Tested Hardware Features
+
+Driver IC:
+
+- 📅 DRV8844 PWM
+- ✅ Freewheeling when unpowered
+- 📅 Analog Current sensing
+- 📅 FOC Support
+
+Encoder IC:
+
+- ✅ TLE5012 SPI communication
+- ✅ TLE5012 through the PCB position sensing (1LSB noise)
+
+Power:
+
+- ✅ Daisy Chain Power connection
+- ✅ DCDC stability at voltage range [External: 5.2V-25V, USB: 4.9V-5.5V]
+- ✅ ENB CLTR 5V (Power Sink & Source 5V 200mA)
+
+Interfaces:
+
+- ✅ USB communication
+- ✅ CTRL connector - UART, I2C, SPI communication (ABZ not tested yet)
+- ✅ CAN-Bus IC Shutdown and Logic supply, diff signal generation
+- ✅ Expansion connector - UART communication
+- ✅ SWD with reset functionality
+
+Peripherals:
+
+- ✅ SW1 & SW2 as button
+- ✅ RESET using SW2 as output
+- ✅ RGB LED (single color indication)
+- ✅ External Precise Clock (10ppm) (HSE)
 
 ------
 
@@ -19,3 +62,8 @@
 
 Don't forget to join **[creapunk community on Discord](https://discord.gg/4uFSsffhMt)** for the latest updates and discussions!
 
+------
+
+Special thanks to [JLCPCB](https://jlcpcb.com/?from=creapunk) for sponsoring the board manufacturing of this design!
+
+[![img](/wiki/assets/sponsors/JLCPCB.png)](https://jlcpcb.com/?from=creapunk)
