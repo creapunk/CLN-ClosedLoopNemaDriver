@@ -71,7 +71,6 @@ Peripherals:
 - **Minimum Via Hole Size/Via Diameter**: 0.25mm/0.41mm
 - **Minimum track width/spacing**: 0.19mm/0.2mm\
 - **Material**: FR4
-
 - **PCB Thickness**: 1mm [preferred]
 - **PCB Color**: Any, but black is more aesthetic.
 - **PCB Surface Finish**: ENIG [preferred]
@@ -81,6 +80,14 @@ Peripherals:
 - **Panelization**: optional, but if horizontal connectors used, the gap between boards should be ≥5mm.
 - **Assembly**: Single top side
 - **Tooling Holes**: Already present 4x D1.152mm in the corners of the board. May require modification for specific equipment.
+
+#### Important Notes
+
+> ***Non-stock Components Note:** The design features 3 irreplaceable components: the driver chip, microcontroller, and encoder. Other parts can be replaced with in-stock equivalents that match or surpass the original specs, provided you conduct a schematic review beforehand.*
+
+> ***Cost Reduction Note:** Eliminate unused components such as the CAN-Bus or CTRL connector to reduce costs, provided you conduct a schematic review beforehand.*
+
+> ***CAN-Bus Configuration Note:** Exclude R8 from the BoM and Pos files if your device isn't the final (termination) node in the CAN-Bus network, to avoid unnecessary 120Ω termination.*
 
 ------
 

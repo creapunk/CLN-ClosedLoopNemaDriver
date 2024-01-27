@@ -36,6 +36,8 @@ The CLN motor driver series is an **open-source** project aimed at creating a ra
 
 - **[`V1.5`](hardware/CLN17/V1.5)** [tested]: cost-efficient version [[wiki]](./wiki/CLN17/V1.5/specification.md)
 
+  ![Preview](wiki/assets/CLN17/V1.5/CLN17-V1.5-PHOTO.JPG)
+
   > - **Key info:** TMC2209 based, 5-25V 1.4A~RMS~, 15bit position feedback, single-sided assembly
   >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
   > - **Release of source files:** Released
