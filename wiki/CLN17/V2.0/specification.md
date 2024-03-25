@@ -3,7 +3,7 @@
 ## ⚡ Electrical characteristics
 
 - **Input voltage:** 8-48VDC with overcurrent protection, reverse polarity protection and surge protection
-- **Current requirements:** 2A~RMS~ with up to 3A peak current
+- **Current requirements:** 2A<sub>RMS</sub> with up to 3A peak current
 - **Powering options:**
 	- 2-Pin connector **XH2.5** (3A limited by connector); 
 - **System voltage source:** 
@@ -18,14 +18,14 @@
 
 - **Supported stepper motor form factor:** NEMA17
 - **Maximum coil current (bipolar configuration only):**
-	- **1.75A~RMS~** per phase continuously
-	- **2A~RMS~** per phase with 50% duty cycle (period 1s)
+	- **1.75A<sub>RMS</sub>** per phase continuously
+	- **2A<sub>RMS</sub>** per phase with 50% duty cycle (period 1s)
 	- **2.5A** peak per phase
 - **Maximum output voltage:** 48VDC
 - **Maximum step sub-division resolution:** 1/256 of full step
 - **Energy saving features:** Passive Braking, Freewheeling and automatic power down
 - **Working frequency:** up to 75kHz PWM
-- **Phase channel resistance:** Mosfets RDS~ON~ 580mΩ for both sides + 50mΩ current sensing resistor
+- **Phase channel resistance:** Mosfets RDS<sub>ON</sub> 580mΩ for both sides + 50mΩ current sensing resistor
 - **True Driver positioning resolution:** Up to 0.028° (may be limited by motor)
 - **True Encoder position feedback resolution:** 14bit per full rotation or 0.02° at 20kHz update rate
 - **Diagnostic functions:** overheat detection, short-circuit detection, under-voltage detection, open-load detection in case connectors are not firmly plugged in
@@ -56,7 +56,7 @@
 
   * **SPI or SSI**
 
-  * **ABZ incremental interface** for external encoder connection with programmable **5V voltage source**
+  * **ABZ incremental interface** for external encoder connection with program-controlled **5V voltage source**
 
   * **Custom interface** including numerous combination of the above interfaces
 - **4-Pin expansion connector 2x2P2.0** with 2A power line and multifunctional bidirectional fast 2-Pin interface up to 8MHz with **Classic UART** interface

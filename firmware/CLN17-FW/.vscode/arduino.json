@@ -1,7 +1,0 @@
-{
-    "sketch": "CLN17-FW.ino",
-    "configuration": "pnum=GENERIC_G431CBUX,upload_method=swdMethod,xserial=none,usb=CDC,xusb=FS,opt=osstd,dbg=none,rtlib=nano",
-    "board": "STMicroelectronics:stm32:GenG4",
-    "output": "build",
-    "port": "COM0"
-}

@@ -4,7 +4,7 @@
 
 Compact and powerful driver for NEMA17, an advanced version of CLN17, suitable for 12V, 24V, 36V, and 48V systems with a current of up to 1.75A RMS
 
-`STATUS` As of January 2024, the [partial board's functionality has been confirmed](#tested-hardware-features). Testing completion is expected by 02.2024. Once testing is complete and all issues have been identified, all production files and the original design files will be published.
+`STATUS` As of March 2024, the [most board's functionality has been confirmed](#tested-hardware-features). Going for BETA. Once beta is complete, all production files and the original design files will be published.
 
 - [`Specification`](/wiki/CLN17/V1.5/specification.md)
 
@@ -20,10 +20,10 @@ Compact and powerful driver for NEMA17, an advanced version of CLN17, suitable f
 
 Driver IC:
 
-- 📅 DRV8844 PWM
-- ✅ Freewheeling when unpowered
+- ✅ DRV8844 PWM
+- ⛔ Freewheeling when unpowered
 - 📅 Analog Current sensing
-- 📅 FOC Support
+- ✅ FOC Support
 
 Encoder IC:
 

@@ -3,7 +3,7 @@
 ## ⚡ Electrical characteristics
 
 - **Input voltage:** 5-25VDC with overcurrent protection, reverse polarity protection and surge protection
-- **Current requirements:** 2A~RMS~ with up to 3A peak current
+- **Current requirements:** 2A<sub>RMS</sub> with up to 3A peak current
 - **Powering options:**
 	- 2-Pin connector XH2.5 (3A limited by connector); 
 	- 6-Pin control connector XH2.5 with power lines (3A limited by connector);
@@ -16,14 +16,14 @@
 
 - **Supported stepper motor form factor:** NEMA17
 - **Maximum coil current (bipolar configuration only):**
-	- **1.4A~RMS~** per phase continuously
-	- **2A~RMS~** per phase with 50% duty cycle (period 1s)
+	- **1.4A<sub>RMS</sub>** per phase continuously
+	- **2A<sub>RMS</sub>** per phase with 50% duty cycle (period 1s)
 	- **2.5A** peak per phase
 - **Maximum output voltage:** 25VDC
 - **Maximum step sub-division resolution:** 1/256 of full step
 - **Energy saving features:** Passive Braking, Freewheeling and automatic power down
 - **Working frequency:** up to 40kHz PWM
-- **Phase channel resistance:** Mosfets RDS~ON~ 170mΩ for both sides + 100mΩ current sensing resistor
+- **Phase channel resistance:** Mosfets RDS<sub>ON</sub> 170mΩ for both sides + 100mΩ current sensing resistor
 - **True Driver positioning resolution:** Up to 0.028° (may be limited by motor)
 - **True Encoder position feedback resolution:** 14bit per full rotation or 0.02° at 20kHz update rate
 - **Diagnostic functions:** overheat detection, short-circuit detection, under-voltage detection, open-load detection in case connectors are not firmly plugged in

@@ -28,7 +28,7 @@ The CLN motor driver series is an **open-source** project aimed at creating a ra
 
 - **[`wiki`](wiki)**: includes design documentation and other information
 - **[`hardware`](hardware)**: contains design source files, manufacturing files, schematics, block diagrams and 3D models
-- **[`firmware`](firmware)**: [to be updated as the project evolves]
+- **[`firmware`](https://github.com/creapunk/TunePulse)**: [to be updated as the project evolves]
 
 ## Hardware Versions
 
@@ -38,30 +38,45 @@ The CLN motor driver series is an **open-source** project aimed at creating a ra
 
   ![Preview](wiki/assets/CLN17/V1.5/CLN17-V1.5-PHOTO.JPG)
 
-  > - **Key info:** TMC2209 based, 5-25V 1.4A~RMS~, 15bit position feedback, single-sided assembly
+  > - **Key info:** TMC2209 based, 5-25V 1.4A<sub>RMS</sub>, 15bit position feedback, single-sided assembly
   >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
   > - **Release of source files:** Released
 
   
 
-- **[`V2.0`](hardware/CLN17/V2.0)** [under testing]: high voltage version [[wiki]](./wiki/CLN17/V2.0/specification.md)
+- **[`V2.0`](hardware/CLN17/V2.0)** [tested]: high voltage version [[wiki]](./wiki/CLN17/V2.0/specification.md)
 
-  > - **Key info:** DRV8844 based, 8-48V 1.75A~RMS~, 15bit position feedback, single-sided assembly
+![Preview](wiki/assets/CLN17/V2.0/CLN17-V2.0-PHOTO.JPG)
+  > - **Key info:** DRV8844 based, 8-48V 1.75A<sub>RMS</sub>, 15bit position feedback, single-sided assembly
   >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
-  > - **Release of source files:** February 2024
+  > - **Release of source files:** April 2024 (post BETA)
 
 
-#### OBSOLETE 
+##### OBSOLETE 
 
 **[`CLN17 V1.0`](hardware/CLN17/V1.0)** [obsolete]: pilot version [[wiki]](./wiki/CLN17/V1.0/specification.md)
 
 ***Important Note:** Obsolete designs will not be supported in future*
 
+#### NEMA23 and NEMA34 dedicated drivers
+
+- **[`V0.1`](hardware/CLN17/V1.5)** [in design]: powerful and versatile [[wiki]](./wiki/CLN234/V0.1/specification.md)
+
+	> **Key info:** external MOSFETs, 6-52V 10A<sub>RMS</sub>, 16bit/21bit position feedback
+	>
+	> **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
+
+#### Modular drivers dedicated for embedded systems
+
+Jump to the [RadiX project repository](https://github.com/creapunk/RadiX)
+
+------
+
 ## Hardware Development Roadmap
 
-- **[February 2024]** - End of testing for CLN17 V2.0, release of their source files
-- **[March 2024]** - CLN234 design for Nema23, Nema34 and Nema42 and new external board to enhance driver capabilities and integration
-- **[April 2024]** - CLN14 for Nema14 miniature motors
+- **[April 2024]** - BETA LAUNCH for CLN17 V2.0, source files release
+- **[April 2024]** - CLN234 design for Nema23, Nema34 and Nema42
+- **[June 2024]** - CLN14 for Nema14 miniature motors
 
 ***Important Note:** If critical problems will be revealed, the schedule will be updated*
 
