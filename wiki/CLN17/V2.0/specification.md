@@ -18,14 +18,15 @@
 
 - **Supported stepper motor form factor:** NEMA17
 - **Maximum coil current (bipolar configuration only):**
-	- **1.75A<sub>RMS</sub>** per phase continuously
+	- **1.25A<sub>RMS</sub>** per phase continuously
+	- **1.75A<sub>RMS</sub>** per phase continuously with heatsink
 	- **2A<sub>RMS</sub>** per phase with 50% duty cycle (period 1s)
 	- **2.5A** peak per phase
 - **Maximum output voltage:** 48VDC
 - **Maximum step sub-division resolution:** 1/256 of full step
 - **Energy saving features:** Passive Braking, Freewheeling and automatic power down
-- **Working frequency:** up to 75kHz PWM
-- **Phase channel resistance:** Mosfets RDS<sub>ON</sub> 580mΩ for both sides + 50mΩ current sensing resistor
+- **Working frequency:** up to 83kHz PWM
+- **Phase channel resistance:** MOSFETs RDS<sub>ON</sub> 580mΩ for both sides + 50mΩ current sensing resistor
 - **True Driver positioning resolution:** Up to 0.028° (may be limited by motor)
 - **True Encoder position feedback resolution:** 14bit per full rotation or 0.02° at 20kHz update rate
 - **Diagnostic functions:** overheat detection, short-circuit detection, under-voltage detection, open-load detection in case connectors are not firmly plugged in
@@ -89,7 +90,7 @@
 
 ## 🔥 Operating conditions
 
-* **Working temperature range:** **-25 to +80** degrees Celcius
+* **Working temperature range:** **-25 to +80** degrees Celsius
 * **Environment humidity range:** 0 to 90%
 * **Environmental safety:** potential **Lead-Free** and **RoHS** compliance
 * **Maximum heat dissipation**: 5W from motor driver and 0.5W from other system

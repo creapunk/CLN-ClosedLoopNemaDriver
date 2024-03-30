@@ -6,7 +6,7 @@ Compact and powerful driver for NEMA17, an advanced version of CLN17, suitable f
 
 `STATUS` As of March 2024, the [most board's functionality has been confirmed](#tested-hardware-features). Going for BETA. Once beta is complete, all production files and the original design files will be published.
 
-- [`Specification`](/wiki/CLN17/V1.5/specification.md)
+- [`Specification`](/wiki/CLN17/V2.0/specification.md)
 
 ------
 
@@ -21,7 +21,8 @@ Compact and powerful driver for NEMA17, an advanced version of CLN17, suitable f
 Driver IC:
 
 - ✅ DRV8844 PWM
-- ⛔ Freewheeling when unpowered
+- ⛔ Freewheeling when unpowered [NOT WORKING DUE TO DRIVER CHIP]
+- ✅ Freewheeling when external powered
 - 📅 Analog Current sensing
 - ✅ FOC Support
 
@@ -33,7 +34,7 @@ Encoder IC:
 Power:
 
 - ✅ Daisy Chain Power connection
-- ✅ DCDC stability at voltage range [External: 5.2V-25V, USB: 4.9V-5.5V]
+- ✅ DCDC stability at voltage range [External: 5.8V-25V, USB: 4.9V-5.5V]
 - ✅ ENB CLTR 5V (Power Sink & Source 5V 200mA)
 
 Interfaces:
