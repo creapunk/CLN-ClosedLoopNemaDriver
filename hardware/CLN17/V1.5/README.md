@@ -87,8 +87,6 @@ Peripherals:
 
 > ***Cost Reduction Note:** Eliminate unused components such as the CAN-Bus or CTRL connector to reduce costs, provided you conduct a schematic review beforehand.*
 
-> ***CAN-Bus Configuration Note:** Exclude R8 from the BoM and Pos files if your device isn't the final (termination) node in the CAN-Bus network, to avoid unnecessary 120Ω termination.*
-
 ------
 
 ### Support the Project!
