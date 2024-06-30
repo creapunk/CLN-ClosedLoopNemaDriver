@@ -1,6 +1,6 @@
 # License
 
-**Copyright © 2022 - Present, Anton Khrustalev. ALL RIGHTS RESERVED.**
+**Copyright © 2022 - Present, Anton Khrustalev, CREAPUNK. ALL RIGHTS RESERVED.**
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -27,7 +27,7 @@ Under the following terms:
 
 ## Contributors
 
-**Anton Khrustalev** - Original Creator
+**Anton Khrustalev** - Original Creator & Circuit and PCBA design
 
 Future contributors to this project will be acknowledged in this section.
 

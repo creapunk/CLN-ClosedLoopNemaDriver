@@ -1,0 +1,50 @@
+(version 1)
+
+(rule "Pad to Pad Clearance"
+    (constraint physical_clearance (min 0.2mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net"))
+
+(rule "Via to Track Clearance"
+    (constraint hole_clearance (min 0.255mm))
+    (condition "A.Type == 'Via' && B.Type == 'Track'"))
+
+(rule "Pad to Track Clearance" 
+    (constraint physical_clearance (min 0.2mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Track' && A.Net != B.Net"))
+
+(rule "Via to Pad (different nets) Clearance"
+    (constraint physical_hole_clearance (min 0.255mm))
+    (condition "A.Type == 'Via' && B.Pad_Type == 'SMD' && A.Net != B.Net"))
+
+(rule "Via to Pad (same nets) Clearance"
+    (constraint physical_hole_clearance (min 0.175mm))
+    (condition "A.Type == 'Via' && B.Pad_Type == 'SMD' && A.Net == B.Net && B.NetName != 'GND'")
+    (condition "A.Type == 'Via' && B.Pad_Type == 'SMD' && A.Net == B.Net && B.Fabrication_Property != 'Heatsink pad'"))
+
+(rule external_layer_track_width
+	(layer outer)
+    (constraint track_width (min 0.175mm))
+    (condition "A.Type == 'Track'"))
+
+(rule external_layer_clearance
+	(layer outer)
+    (constraint clearance (min 0.175mm))
+    (condition "A.Type == 'Track' || A.Type == 'Via' || A.Type == 'Zone' || A.Type == 'Pad'"))
+
+(rule HV_Zone_Clearance
+	(layer outer)
+	(condition "A.Type == 'Zone' && (B.Type == 'Track'  || B.Type == 'Zone' || B.Type == 'Pad' || B.Type == 'Via') && A.NetName != B.NetName && (A.NetClass == '*HV*' || B.NetClass == '*HV*')")
+	(constraint clearance(min 0.325mm))
+)
+
+(rule HV_Zone_Clearance
+	(layer inner)
+	(condition "A.Type == 'Zone' && (B.Type == 'Track'  || B.Type == 'Zone' || B.Type == 'Pad' || B.Type == 'Via') && A.NetName != B.NetName && (A.NetClass == '*HV*' || B.NetClass == '*HV*')")
+	(constraint clearance(min 0.2mm))
+)
+
+
+(rule inner_layer_zone_clearance
+	(layer inner)
+    (constraint clearance (min 0.175mm))
+    (condition "A.Type == 'Zone'"))

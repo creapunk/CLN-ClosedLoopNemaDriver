@@ -69,7 +69,7 @@ Peripherals:
 
 - **Layers**: 4
 - **Minimum Via Hole Size/Via Diameter**: 0.25mm/0.41mm
-- **Minimum track width/spacing**: 0.19mm/0.2mm\
+- **Minimum track width/spacing**: 0.13mm/0.13mm
 - **Material**: FR4
 - **PCB Thickness**: 1mm [preferred]
 - **PCB Color**: Any, but black is more aesthetic.
