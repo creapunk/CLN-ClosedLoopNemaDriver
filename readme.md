@@ -1,6 +1,6 @@
 # CLN - CLOSED-LOOP DRIVERS FOR NEMA MOTORS
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](license.md)
+ <a href="https://discord.gg/TnrHwyPWzN" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat&logo=discord&logoColor=white" alt="Join Discord Community"></a> <a href="https://ko-fi.com/creapunk" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?style=flat&logo=ko-fi&logoColor=white" alt="Support Me on Ko-fi"></a> <a href="license.md" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg"></a> <a href="https://creapunk.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Buy%20CLN17 V3%20-FYSETC-F39C12?style=flat&logo=opencart&logoColor=white" alt="Buy CLN17 V3"></a>
 
 [![CLN17](./wiki/assets/CLN17.jpg)](https://www.youtube.com/watch?v=A67UROq0t6Q)
 
@@ -40,43 +40,40 @@ The following options are available:
 
 #### [NEMA17 dedicated drivers](./wiki/CLN17/readme.md)
 
-- **`V3.0`** [under testing]: newest version with best performance and BLDC support
+- **[`CLN17 V3.0`](hardware/CLN17/V3.0)** [active]: newest version with best performance and BLDC support [[wiki]](./wiki/CLN17/V3.0/specification.md). 
   
-  > - **Key info:** Discrete MOSFET based, 6-48V 3.2A<sub>RMS</sub> 4.5A<sub>PEAK</sub>, up to 60W output power, 15bit position feedback, dual-sided SMD only assembly
+  > - **Key info:** Discrete MOSFET based, 6-48V 3.2A<sub>RMS</sub> 4.5A<sub>PEAK</sub>, up to 60W output power, 21bit position feedback, dual-sided SMD only assembly
   > - **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
   > - **Supported motors:** Stepper, 3phase BLDC/PMSM
+  >
+  > <a href="https://creapunk.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Buy%20CLN17 V3%20-FYSETC-F39C12?style=flat&logo=opencart&logoColor=white" alt="Buy CLN17 V3"></a>
+  
+  
   
   ![Preview](wiki/assets/CLN17/V3.0/CLN17V3.0-SPIN.gif)
-  
-- **[`V2.5`](hardware/CLN17/V2.5)** [tested]: meant to be final version but will be skipped
 
-- **[`V2.0`](hardware/CLN17/V2.0)** [tested]: high voltage version [[wiki]](./wiki/CLN17/V2.0/specification.md). 
-	**[`V2.1`](hardware/CLN17/)** is improved version
+##### OBSOLETE / NRFND
 
-![Preview](wiki/assets/CLN17/V2.0/CLN17-V2.0-PHOTO.JPG)
-  > - **Key info:** DRV8844 based, 8-48V 1.75A<sub>RMS</sub>, 15bit position feedback, single-sided assembly
-  >- **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
+**[`CLN17 V1.0`](hardware/CLN17/V1.0 [OBSOLETE])** [obsolete]: pilot version [[wiki]](./wiki/CLN17/V1.0/specification.md)
 
-- **[`V1.5`](hardware/CLN17/V1.5)** [tested]: cost-efficient version [[wiki]](./wiki/CLN17/V1.5/specification.md)
+**[`CLN17 V1.5`](hardware/CLN17/V1.5 [OBSOLETE])** [tested]: cost-efficient version [[wiki]](./wiki/CLN17/V1.5/specification.md)
 
-![Preview](wiki/assets/CLN17/V1.5/CLN17-V1.5-PHOTO.JPG)
+**[`CLN17 V2.0`](hardware/CLN17/V2.0 [NRFND])** [tested]: high voltage version [[wiki]](./wiki/CLN17/V2.0/specification.md). 
+**[`CLN17 V2.1`](hardware/CLN17/ [NRFND])** is improved version
 
-  > - **Key info:** TMC2209 based, 5-25V 1.4A<sub>RMS</sub>, 15bit position feedback, single-sided assembly
-  > - **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
-
-##### OBSOLETE 
-
-**[`CLN17 V1.0`](hardware/CLN17/V1.0)** [obsolete]: pilot version [[wiki]](./wiki/CLN17/V1.0/specification.md)
+**[`CLN17 V2.5`](hardware/CLN17/V2.5 [NRFND])** [tested]: meant to be final version but will be skipped
 
 ***Important Note:** Obsolete designs will not be supported in future*
 
 #### NEMA23 and NEMA34 dedicated drivers
 
-- **[`V0.1`](hardware/CLN17/V1.5)** [in design]: powerful and versatile [[wiki]](./wiki/CLN234/V0.1/specification.md)
+- **[`CLN234 V1`](hardware/CLN234/V1.0)** [under tests]: powerful and versatile [[wiki]](./wiki/CLN234/V0.1/specification.md)
 
-	> **Key info:** external MOSFETs, 6-52V 10A<sub>RMS</sub>, 16bit/21bit position feedback
+	> **Key info:** external MOSFETs, 8-75V 10A<sub>RMS</sub> 20A<sub>PEAK</sub>, up to 1000W output power, 21bit position feedback, 56x38x18mm, fits into Ø60mm
 	>
 	> **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
+	
+	![](wiki/assets/CLN234/CLN234-V1B.png)
 
 #### Modular drivers dedicated for embedded systems
 

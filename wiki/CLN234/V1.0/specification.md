@@ -1,11 +1,11 @@
-# CLN234-V0.1 Specification
+# CLN234-V1 Specification
 
 ## ⚡ Electrical characteristics
 
-- **Input voltage:** 6-52VDC with overcurrent protection, reverse polarity protection and surge protection
+- **Input voltage:** 8-75VDC with overcurrent protection, reverse polarity protection and surge protection
 - **Current requirements:** 10A<sub>RMS</sub> with up to 20A peak current
 - **Powering options:**
-	- P5.08 screw terminal / Pluggable screw terminal system
+	- XT30 2+2
 - **System voltage source:** 
 	- On-board DC-DC converter
 	- USB Type-C connector (5VDC 1.5A limited by design)
@@ -21,12 +21,12 @@
 	- **10A<sub>RMS</sub>** per phase continuously
 	- **13A<sub>RMS</sub>** per phase with 50% duty cycle (period 1s)
 	- **20A** peak per phase
-- **Maximum output voltage:** 52VDC
+- **Maximum output voltage:** 75VDC
 - **Maximum step sub-division resolution:** 1/512 of full step
 - **Energy saving features:** Passive Braking, Freewheeling and automatic power down
 - **Working frequency:** up to 83kHz PWM
 - **Phase channel resistance:** Mosfets RDS<sub>ON</sub> 20mΩ for both sides + 2.5mΩ current sensing resistor
-- **Encoder position feedback resolution:** 16bit/21bit per full rotation or 0.005° at 20kHz update rate
+- **Encoder position feedback resolution:** 21bit per full rotation
 - **Diagnostic functions:** overheat detection, short-circuit detection, under-voltage detection, open-load detection
 
 ------
